@@ -1,0 +1,30 @@
+#wrapper {
+    background-color: rgb(166, 225, 236);
+    border: 1px solid black;
+    padding: 10px 20px;
+    width: 700px;
+    height: 730px;
+    margin: 0 auto;
+}
+
+#wrapper .destinations-list {
+    list-style: none;
+}
+
+#wrapper .destinations-list li {
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 595px;
+    font-size: 14px;
+}
+
+#wrapper img {
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#wrapper .text {
+    color: #3f51b5;
+}
