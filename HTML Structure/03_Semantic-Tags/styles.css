@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f9f7cf;
+    margin: 20px;
+    width: 500px;
+}
+
+
+header, footer {
+    background-color: #f2dcbb;
+    padding: 15px 10px;
+    width: 450px;
+}
+
+header h1 {
+    padding: 20px 0;
+}
+
+header h2 {
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding: 10px 0;
+}
