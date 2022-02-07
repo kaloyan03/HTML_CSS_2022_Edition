@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    width: 550px;
+}
+
+.menu .menu-title {
+    font-family: "Sentinel A", "Sentinel B", "Georgia", "Times New Roman", "Times", serif;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #747474;
+    text-transform: capitalize;
+}
+
+
+.menu .menu-subtitle {
+    font-family: "Graphik Semibold Web", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.menu .menu-content {
+    font-weight: 'Graphik Regular Web', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+.menu .menu-content,
+.menu .menu-subtitle {
+    font-size: 16px;
+    line-height: 1.46;
+    color: #5c5a5a;
+}
