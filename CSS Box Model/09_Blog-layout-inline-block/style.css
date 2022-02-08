@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    display: inline-flex;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+article {
+    width: 68%;
+    display: inline-block;
+}
+
+article img {
+    width: 500px;
+}
+
+aside {
+    display: inline-block;
+    width: 27%;
+}
+
+p, time {
+    margin-bottom: 50px;
+}

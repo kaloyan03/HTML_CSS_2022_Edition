@@ -1,0 +1,25 @@
+/* TODO: style the html */
+
+main div {
+    display: inline-block;
+    width: 280px;
+    background-color: #0A2C48;
+    padding: 16px;
+    padding-left: 32px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+
+main div h3 {
+    color: white;
+}
+
+main div p {
+    color: #c9d6ff;
+    font-size: 18px;
+}
+
+main div:hover {
+    background-color: #2A4C68;
+}
