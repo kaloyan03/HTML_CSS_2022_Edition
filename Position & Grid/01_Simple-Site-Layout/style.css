@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "footer footer";
+}
+
+header, aside, main, footer {
+    background-color: rgb(181, 216, 255);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+main {
+    grid-area: content;
+}
+
+footer {
+    grid-area: footer;
+}
