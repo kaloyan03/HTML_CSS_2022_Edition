@@ -1,1 +1,12 @@
-//TODO
+main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+}
+
+
+img.new {
+    top: -200px;
+    position: relative;
+    right: 150px;
+}

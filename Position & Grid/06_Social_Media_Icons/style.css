@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+ul li a {
+    color: black;
+    background-color: rgb(201, 201, 201);
+    padding: 12px;
+    border-radius: 20px;
+}
