@@ -1,0 +1,27 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+header, main, aside, footer {
+    background-color: aquamarine;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+header,
+footer {
+    width: 100%;
+}
+
+main {
+    width: calc(70% - 1.5rem);
+}
+
+aside {
+    width: calc(20% - 1.5rem);
+}
