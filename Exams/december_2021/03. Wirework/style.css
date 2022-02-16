@@ -22,18 +22,14 @@ body {
 
 .header-nav li {
     display: inline-block;
-    padding: 1rem 1.5rem;
     background-color: rgb(235, 235, 235);
 }
 
 .header-nav li a {
+    display: block;
     text-decoration: none;
     color: rgb(77, 76, 76);
-}
-
-.header-nav li:hover {
-    background-color: rgb(224, 91, 2);
-    color: white;
+    padding: 1rem 1.5rem;
 }
 
 .header-nav li a:hover {
@@ -47,11 +43,74 @@ body {
     position: relative;
 }
 
-.header-subtitle::before {
+.header-title::after {
     content: '';
     position: absolute;
     background-color: grey;
     width: 1px;
-    height: 50px;
-    left: -15px;
+    height: 36px;
+    margin-left: 14px;
+}
+
+.intro-img {
+    overflow: hidden;
+}
+
+.intro-img img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.intro-content {
+    display: inline-block;
+    background-color: rgb(224, 91, 2);
+    margin-top: -8px;
+    padding: 80px 160px;
+    color: white;
+    line-height: 2;
+    line-break:strict;
+    text-align: center;
+}
+
+.intro-content a {
+    color: white;
+}
+
+
+.benefits-section {
+    display: inline-block;
+    background-color: rgb(85, 85, 85);
+    padding: 50px;
+}
+
+.benefits {
+    list-style: none;
+    text-align: center;
+}
+
+.benefit {
+    display: inline-block;
+    width: 20%;
+    margin-right: 30px;
+}
+
+.benefit-title {
+    color: white;
+}
+
+.benefit-content {
+    color: gray;
+}
+
+.benefit-icon {
+    color: white;
+    font-size: 48px;
+    background-color: rgb(224, 91, 2);
+    padding: 1rem;
+}
+
+.benefit-title::before {
+    content: '';
+    
 }
