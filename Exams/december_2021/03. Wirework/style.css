@@ -96,11 +96,13 @@ body {
 }
 
 .benefit-title {
+    position: relative;
     color: white;
 }
 
 .benefit-content {
     color: gray;
+    margin-top: 40px;
 }
 
 .benefit-icon {
@@ -110,7 +112,79 @@ body {
     padding: 1rem;
 }
 
-.benefit-title::before {
+.benefit-title::after {
     content: '';
-    
+    width: 100%;
+    position: absolute;
+    background-color: darkgray;
+    left: 0;
+    bottom: -18px;
+    height: 1px;
+}
+
+.use-services {
+    text-align: center;
+    margin: 90px 180px;
+}
+
+.use-services-title {
+    color: rgb(77, 76, 76);   
+    margin-bottom: 0;
+}
+
+.use-services-content {
+    color: rgb(163, 157, 157);
+    margin-top: 6px;
+}
+
+.use-services-cta {
+    background-color: rgba(10, 122, 53, 0.596);
+    color: white;
+    border: none;
+    padding: 12px 28px
+}
+
+
+.second-benefit-section {
+    display: inline-block;
+    background-color: rgb(85, 85, 85);
+    padding: 50px;
+}
+
+.second-benefits {
+    list-style: none;
+    text-align: center;
+}
+
+.second-benefit {
+    display: inline-block;
+    width: 20%;
+    margin-right: 30px;
+}
+
+.second-benefit-title {
+    position: relative;
+    color: white;
+}
+
+.second-benefit-content {
+    color: gray;
+    margin-top: 40px;
+}
+
+.footer {
+    padding: 90px 180px;
+    background-color: rgba(10, 122, 53, 0.596);
+}
+
+.footer-content {
+    text-align: center;
+    color: rgb(186, 243, 198);
+    letter-spacing: 3px;
+    opacity: 1px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: rgb(141, 252, 137);
 }
