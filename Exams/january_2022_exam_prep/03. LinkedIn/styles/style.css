@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('./reset.css');
+@import url('./components.css');
+
+:root {
+    --color-blue: #0072b1;
+    --section-padding-x: 100px;
+    --section-padding: 32px var(--section-padding-x);
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* navigation */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--section-padding);
+    padding-top: 0;
+}
+
+.navigation-list li {
+    display: inline-block;
+}
+
+
+.navigation-list a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation-list .navigation-list-item-join a {
+    color: rgb(141, 141, 141);
+    margin-right: 20px;
+}
+
+.navigation-list .navigation-list-item-sign-in a {
+    color: var(--color-blue);
+    margin-right: 20px;
+    border: 1px solid var(--color-blue);
+    border-radius: 30px;
+    padding: 5px 16px;
+}
+
+.navigation-logo-img {
+    width: 100%;
+    max-width: 150px;
+}
+
+/* hero */
+
+.hero {
+    position: relative;
+}
+
+.hero .hero-content {
+    width: 60%;
+    padding: var(--section-padding);
+    margin-bottom: 90px;
+} 
+
+.hero .hero-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 39%;
+}
+
+.hero-content .hero-title {
+    color: var(--color-blue);
+    font-size: 88px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.hero-content .sign-in-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.hero-content .sign-in-form input {
+    padding: 10px 6px;
+    margin-bottom: 16px;
+}
+
+.hero-content .sign-in-form a {
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* jobs section */
+
+.jobs {
+    background-color: #FAF9F7;
+    padding: 180px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobs-title {
+    font-size: 50px;
+    width: 350px;
+}
+
+.jobs-tags-list li {
+    display: inline-block;
+    margin: 14px 10px 30px 0;
+}
+
+.jobs-options .jobs-options-text {
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+}
+
+
+/* post job section */
+
+.post-job {
+    background-color: #f1ece5;
+    padding: 50px var(--section-padding-x);
+}
+
+.post-job-title {
+    color: #b24020;
+    font-size: 50px;
+    width: 32%;
+    display: inline-block;
+}
+
+.post-job-btn {
+    margin-left: 25%;
+    text-decoration: none;
+    border: 1px solid rgb(77, 77, 77);;
+    background-color: #f1ece5;
+    color: rgb(77, 77, 77);
+    padding: 10px 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}

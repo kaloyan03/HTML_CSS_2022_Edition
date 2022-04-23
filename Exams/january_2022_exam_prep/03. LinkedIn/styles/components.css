@@ -1,0 +1,30 @@
+/* buttons */
+.btn {
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid var(--color-blue);
+    background-color: white;
+    color: var(--color-blue);
+    font-size: 16px;
+}
+
+.btn--primary {
+    background-color: var(--color-blue);
+    color: white;
+}
+
+.btn--primary:hover {
+    background-color: white;
+    color: var(--color-blue);
+}
+
+
+/* tags */
+.jobs-tag {
+    text-decoration: none;
+    background-color: #E6E5E4;
+    color: rgb(77, 77, 77);
+    padding: 10px 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}
