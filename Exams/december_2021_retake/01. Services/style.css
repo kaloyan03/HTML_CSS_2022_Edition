@@ -1,0 +1,79 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --color-green: #ABC452;
+    --color-dark-gray: #858585;
+    --color-light-gray: #F7F7F7;
+    --color-black: #35383B;
+}
+
+.services {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.services__title {
+    font-weight: 700;
+    color: var(--color-black);
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.services__title span {
+    color: var(--color-green);
+}
+
+.services__subtitle {
+    color: var(--color-dark-gray);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.services__list {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.services .service {
+    background-color: var(--color-light-gray);
+}
+
+.service__content {
+    padding: 1.6rem;
+}
+
+.service__title {
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.service__image {
+    width: 100%;
+}
+
+.service__description {
+    line-height: 1.8rem;
+    color: var(--color-dark-gray);
+    margin-bottom: 1rem;
+}
+
+
+
+.service__info-btn {
+    background-color: var(--color-green);
+    color: white;
+    border: none;
+    padding: 0.65rem 1.25rem;
+    font-weight: 600;
+    border-radius: 1.2rem;
+}
