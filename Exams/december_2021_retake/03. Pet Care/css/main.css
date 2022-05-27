@@ -134,4 +134,28 @@ h6 {
     margin-top: 47px;
 }
 
+.about-us {
+    padding: 0px 24rem;
+    display: flex;
+    align-items: center;
+}
 
+.about-us__content {
+    margin-left: 6rem;
+}
+
+.about-us__title {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.about-us__title.fat {
+    font-weight: bold;
+}
+
+.about-us__description {
+    color: var(--color-grey-about-us);
+    line-height: 1.8rem;
+    font-size: 18px;
+    margin: 2rem 0;
+}
