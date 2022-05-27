@@ -1,0 +1,79 @@
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./components.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;400;600;700;800&display=swap');
+
+:root {
+    --color-black: #191D34;
+    --color-grey-services: #909092;
+    --color-grey-about-us: #66666F;
+    --color-grey-footer: #7A7A7A;
+    --color-primary-orange: #FF3600;
+}
+
+html {
+    font-family: 'Open-Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main__header-bg-image {
+   background-image: url('../images/header-bg.png');
+   height: 888px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.header-content__title {
+    font-size: 3.2rem;
+}
+
+.main__header {
+    position: relative;
+}
+
+.main__header-content {
+    position: absolute;
+    top: 14rem;
+    left: 27rem;
+    width: 20rem;
+}
+
+.header-content__title {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.header-content__title.fat {
+    font-weight: bold;
+}
+
+.header-content__title.thin {
+    font-weight: 200;
+}
+
+.header-content__img {
+    position: absolute;
+    bottom: -80px;
+    right: 140px;
+}
+
+.header-content__title:nth-child(2) {
+    margin-bottom: 2rem;
+}
+
+.header-content__description {
+    color: white;
+    line-height: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+

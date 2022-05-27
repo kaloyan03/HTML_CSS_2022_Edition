@@ -1,1 +1,24 @@
 /* TODO: Add the responsive styles here */
+
+
+@media screen and (max-width: 600px) {
+    header {
+    }
+
+    .container {
+        max-width: unset;
+    }
+
+    .tm-gallery-page {
+        margin: 0 auto;
+    }
+
+    .tm-cta-section {
+        width: auto;
+    }
+
+    .row {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
