@@ -222,3 +222,23 @@ html {
     width: 800px;
     z-index: 2;
 }
+
+.ask-us {
+    position: relative;
+    background-color: var(--color-light-grey);
+    margin: var(--section-margin);
+    margin-top: 0;
+    height: 85vh;
+}
+
+.ask-us__title {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.ask-us__description {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
