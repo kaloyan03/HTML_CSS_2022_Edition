@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700&display=swap');
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700&display=swap');
+@import url('./components.css');
+
 :root {
     --color-light-grey: #EFEFEF;
     --color-dark-grey: #909090;
@@ -68,12 +70,7 @@ html {
 }
 
 .welcome__description {
-    font-weight: 500;
     width: 600px;
-    font-style: italic;
-    margin-top: 2.2rem;
-    letter-spacing: 2px;
-    line-height: 1.5rem;
 }
 
 .welcome__content {
@@ -92,4 +89,55 @@ html {
     position: absolute;
     left: 0;
     top: 120%;
+}
+
+.autobiography {
+    position: relative;
+    background-color: var(--color-light-grey);
+    margin: var(--section-margin);
+    height: 85vh;
+}
+
+.autobiography__img {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.autobiography__content {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.autobiography__title {
+    margin-left: 5.5rem;
+}
+
+.autobiography__title::before {
+    content: '';
+    width: 70px;
+    border-bottom: solid 1px black;
+    position: absolute;
+    left: 0;
+    top: 5%;
+    z-index: 1;
+}
+
+.autobiography__description {
+    margin-top: 4rem;
+}
+
+.autobiography__contacts a{
+    font-size: 1rem;
+    background-color: var(--color-dark-grey);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
+    
+}
+
+.autobiography__contacts {
+    margin-top: 2rem;
 }
